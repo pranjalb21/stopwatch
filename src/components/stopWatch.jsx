@@ -46,7 +46,7 @@ const StopWatch = () => {
 
     return (
         <React.Fragment>
-           <h1>{hr} : {mn} : {sc} : {msc}</h1>
+           <h1>{hr}:{mn}:{sc}:{msc}</h1>
            <button className="btn" onClick={timerIncrease}>{value}</button> 
            <button className="btn" onClick={reset}>Reset</button> 
         </React.Fragment>
